@@ -1,1 +1,32 @@
 /*  your css code here. If applicable */
+
+.modal{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 1000px;
+    background-color: aqua;
+    padding: 20px;
+    
+}
+
+.modal-header h2{
+   background-color: burlywood;
+   width: 980px;
+   text-align: start;
+   padding: 10px;
+   margin: 10px;
+}
+
+.modal-header .close-modal{
+    margin-left: 1000px;
+    color: rgb(43, 162, 162);
+    font-size: larger;
+}
+
+.modal-body p{
+  margin: 0px;
+  padding: opx;  
+  margin-left: 20px;
+  font-size: medium;
+}
